@@ -1,0 +1,14 @@
+{
+    "home": {
+        "LABEL_WhatDoYouWantToDO": "What do you want to do?",
+        "LABEL_ShipmentSearch": "Shipment Search",
+        "PLACEHOLDER_OrderNumber": "Order #",
+        "PLACEHOLDER_ShipmentNumber": "Shipment #",
+        "PLACEHOLDER_FirstName": "First Name",
+        "PLACEHOLDER_LastName": "Last Name",
+        "PLACEHOLDER_EmailID": "Email ID",
+        "PLACEHOLDER_PhoneNumber": "Phone number",
+        "BUTTON_Reset": "Reset",
+        "BUTTON_Search": "Search"
+    }
+}

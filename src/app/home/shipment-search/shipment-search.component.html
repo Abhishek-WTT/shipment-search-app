@@ -1,0 +1,20 @@
+<div class="search-screen">
+    <section>
+        <h2 *ngIf="questionLabel" class="question">{{ questionLabel }}</h2>
+
+        <div class="form-div">
+
+            <h2>{{ 'home.LABEL_ShipmentSearch' | translate }}</h2>
+            <form id="shipmentForm" (ngSubmit)="onSubmit()" [formGroup]="searchForm">
+                <input type="text" id="orderNumber" name="orderNumber" placeholder="{{ 'home.PLACEHOLDER_OrderNumber' | translate }}">
+                <input type="text" id="shipmentNumber" name="shipmentNumber" placeholder="{{ 'home.PLACEHOLDER_ShipmentNumber' | translate }}">
+                <input type="text" id="firstName" name="firstName" placeholder="{{ 'home.PLACEHOLDER_FirstName' | translate }}">
+                <input type="text" id="lastName" name="lastName" placeholder="{{ 'home.PLACEHOLDER_LastName' | translate }}">
+                <input type="email" id="email" name="email" placeholder="{{ 'home.PLACEHOLDER_EmailID' | translate }}">
+                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="{{ 'home.PLACEHOLDER_PhoneNumber' | translate }}">
+                <button type="reset" (click)="onReset()">{{ 'home.BUTTON_Reset' | translate }}</button>
+                <button type="submit">{{ 'home.BUTTON_Search' | translate }}</button>
+            </form>
+        </div>
+    </section>
+</div>
