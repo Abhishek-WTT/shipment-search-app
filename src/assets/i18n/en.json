@@ -10,5 +10,16 @@
         "PLACEHOLDER_PhoneNumber": "Phone number",
         "BUTTON_Reset": "Reset",
         "BUTTON_Search": "Search"
+    },
+    "search_result": {
+        "Shipments_Search_Results_Title": "Shipments search results",
+        "Close": "Close",
+        "LABEL_Carrier": "Carrier:",
+        "LABEL_Shipment": "Shipment # ",
+        "LABEL_AssignedTo": "Assigned to: ",
+        "LABEL_ExpectedPickupDate":"Expected Pickup Date: "
+    },
+    "shipment_summary": {
+        "Shipments_Summary_Title": "Shipments search results"
     }
 }

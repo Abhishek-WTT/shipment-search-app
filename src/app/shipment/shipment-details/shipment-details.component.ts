@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-shipment-details',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './shipment-details.component.sass'
 })
 export class ShipmentDetailsComponent {
+
+  constructor ( private translate: TranslateService ) {}
 
 }

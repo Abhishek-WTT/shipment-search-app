@@ -7,6 +7,9 @@ import { Observable } from 'rxjs';
 })
 
 export class DataService {
+
+    shipmentDataList: any;
+
     constructor(private http: HttpClient) {}
 
     getShipmentList(): Observable<any> {

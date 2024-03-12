@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ShipmentRoutingModule } from './shipment-routing.module';
 import { ShipmentSearchResultsComponent } from './shipment-search-results/shipment-search-results.component';
 import { ShipmentDetailsComponent } from './shipment-details/shipment-details.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 
@@ -10,7 +11,8 @@ import { ShipmentDetailsComponent } from './shipment-details/shipment-details.co
   declarations: [ShipmentSearchResultsComponent, ShipmentDetailsComponent],
   imports: [
     CommonModule,
-    ShipmentRoutingModule
+    ShipmentRoutingModule,
+    TranslateModule
   ]
 })
 export class ShipmentModule { }

@@ -1,1 +1,29 @@
-<p>shipment-details works!</p>
+<div class="">
+
+    <header class="d-flex justify-content-between m-4 searchResult_header">
+        <h4>{{ 'shipment_summary.Shipments_Summary_Title' | translate }}</h4>
+        <button class="btn btn-outline-info">{{ 'search_result.Close' | translate }}</button>
+    </header>
+
+    <div>
+        <div class="d-flex">
+            <!-- <h4 class="m-2">{{NoOftotalRecords}}</h4> <span> results</span> -->
+        </div>
+        <div class="shipment-item row border mb-3 p-3">
+
+            <!-- <div class="col-md-6">
+                <p><strong>{{ item.OrderNo }}</strong></p>
+                <p>{{ item.ShipmentLines.TotalNumberOfRecords }} products</p>
+                <p><strong>{{ 'search_result.LABEL_Carrier' | translate }}</strong> {{ item.ScacAndService }}</p>
+                <p><strong>{{ 'search_result.LABEL_Shipment' | translate}}</strong> 
+                    <a [routerLink]="['/shipment-summary', item.ShipmentNo]">{{ item.ShipmentNo }}</a>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p><strong>{{ item.Status }}</strong></p>
+                <p><strong>{{ 'search_result.LABEL_AssignedTo' | translate}}</strong> {{ item.AssignedToUserId }}</p>
+                <p><strong> {{'search_result.LABEL_ExpectedPickupDate' | translate}} </strong> {{ item.ExpectedShipmentDate }}</p>
+            </div> -->
+        </div>
+    </div>
+</div>
